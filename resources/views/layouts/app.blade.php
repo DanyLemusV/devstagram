@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Devstagram - @yield('titulo')</title>
-
+        @vite('resources/css/app.css')
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-        <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-
+        <body class="bg-gray-100">
         </body>
 </html>
