@@ -1,4 +1,5 @@
 @extends('layouts.app')
+
 @section('titulo')
-Tienda Virtual
+    Registrate en Devstagram
 @endsection
